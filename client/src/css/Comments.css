@@ -1,0 +1,71 @@
+.comment-item {
+    display: flex;
+    padding: 63px 0;
+    border-bottom: 1px solid #d0d0d0;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+
+.comment-item img {
+    width: 100px;
+}
+
+.comment-content {
+    width: 90%;
+}
+
+
+.comments {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.comment-content h3 {
+    font-size: 28px;
+    color: #171735;
+}
+
+.comment-content p {
+    font-size: 22px;
+    color: #171735;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.comment-content {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.comment-form h3 {
+    font-size: 35px;
+    color: #171735;
+}
+
+.comment-form textarea {
+    padding: 20px;
+    border-color: #171735;
+    border-radius: 20px;
+    
+}
+
+.comment-form button {
+    background-color: #00ADEF;
+    color: #fff;
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    width: 200px;
+    margin-right:auto;
+}
+
+.comment-form button:hover {
+    background-color: #171735;
+}
+
+

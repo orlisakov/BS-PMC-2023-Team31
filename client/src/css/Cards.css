@@ -1,0 +1,190 @@
+.card {
+    height: 420px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    height: 250px;
+    overflow: hidden;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 300px;
+}
+
+.card-content span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 25px;
+}
+.card-content h3 {
+    font-size: 25px;
+    margin: 0;
+    padding: 15px;
+    line-height: 1.1;
+    text-align: center;
+    color: #171735;
+    font-weight: 700;
+    height: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card-content p {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+
+.card-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-content button {
+    background-color: #00ADEF;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 3px 25px;
+    border-radius: 8px 8px 0 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card-content button:hover {
+    background-color: #171735;
+}
+
+.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.event-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+    
+}
+
+p.event-description {
+    font-size: 16px;
+    border-top: 1px solid #d5d5d5;
+    margin-top: 10px;
+    padding-top:10px;
+    width: 100%;
+}
+
+p.event-assname {
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+    margin-top: -10px;
+    
+}
+
+button.wishlist-button-loop.tooltip {
+    background: transparent;
+    padding: 0;
+}
+
+
+.loop-btns {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -26px;
+    width: 100%;
+}
+
+
+button.post-link {
+    border-radius: 100px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+
+.loop-btns button.wishlist-button-loop.tooltip {
+    width: 33%;
+    margin-bottom: 6px;
+    text-align: left;
+    padding-left: 12px;
+}
+
+
+.loop-btns button.wishlist-button-loop.tooltip img {
+    width: 30px;
+}
+
+
+button.wishlist-button-loop.tooltip .tooltiptext {
+    left: 20%;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+
+button.wishlist-button-loop .tooltip .tooltiptext::after {
+
+    left: 61%;
+
+}
+
+
+
+@media only screen and (max-width: 1900px) {
+
+    .card {
+        height: 400px;
+    }
+
+    .card-img {
+        height: 173px;
+    }
+
+    .card-img img {
+        height: 173px;
+    }
+
+    .card-content h3 {
+
+        min-height: 55px
+    }
+
+
+    .loop-btns {
+        margin-left: -1px;
+    }
+
+
+
+}

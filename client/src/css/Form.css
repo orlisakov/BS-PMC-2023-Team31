@@ -1,0 +1,260 @@
+.popup-content {
+    position: relative;
+    border-radius: 8px;
+    align-items: flex-start;
+    padding: 0;
+    width: 735px;
+}
+
+.form {
+    width: 100%;
+}
+
+label {
+    color: #fff;
+    position: absolute;
+}
+
+
+h2 {
+    color: #171735;
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 4px solid #00ADEF;
+    padding: 15px;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-footer {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+}
+
+.links {
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -21px;
+}
+
+.links a {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.links a:last-child {
+    font-weight: 600;
+}
+
+input.form-input {
+    width: 100%;
+    border-radius: 8px;
+    padding: 15px 40px 15px 15px;
+    border: 1px solid #d0d0d0;
+    position: relative;
+}
+
+.password-div {
+    position: relative;
+    width: 100%;
+}
+
+.asso-signup-form input {
+    width: 92.5%;
+    border-radius: 8px;
+    padding: 15px 40px 15px 15px;
+    border: 1px solid #d0d0d0;
+    position: relative;
+}
+
+button.form-btn {
+    font-size: 29px;
+    font-weight: 600;
+    background: #00ADEF;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    color: #fff;
+}
+
+
+::placeholder,
+input {
+    font-family: 'Assistant';
+    font-size: 18px;
+}
+
+
+
+
+input:focus {
+    outline: none;
+    background-color: #f9f9f9;
+}
+
+
+.date-placeholder::before {
+    content: attr(data-placeholder);
+    color: #999;
+    position: absolute;
+    pointer-events: none;
+}
+
+.date-placeholder:focus::before,
+.date-placeholder:valid::before {
+    content: '';
+}
+
+
+
+label.email-label:before {
+    content: url(../assets/cd-icon-email.svg);
+    position: absolute;
+    top: 90%;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+label.password-label:before {
+    content: url(../assets/cd-icon-password.svg);
+    position: absolute;
+    top: 90%;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+label.company-name:before {
+    content: url(../assets/icon-company.svg);
+    position: absolute;
+    top: 90%;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+label.first-name:before {
+    content: url(../assets/cd-icon-username.svg);
+    position: absolute;
+    top: 90%;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+label.last-name:before {
+    content: url(../assets/cd-icon-username.svg);
+    position: absolute;
+    top: 90%;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+label.phone-label:before {
+    content: url(../assets/icon-phone.svg);
+    position: absolute;
+    top: 90%;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+label.date-label:before {
+    content: url(../assets/icon-date.svg);
+    position: absolute;
+    top: 90%;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+.form-input.error {
+    border: 1px solid red;
+}
+
+.date-picker.error {
+    border: 1px solid red;
+}
+
+.phone-input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-input-field,
+.phone-prefix-field {
+    width: 45%;
+}
+
+
+.password-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-visibility-toggle {
+    position: absolute;
+    left: 20px;
+    top: 55%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button.password-visibility-toggle svg {
+    font-size: 22px;
+    fill: grey;
+}
+
+
+.phone-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+span.phone-sufix {
+    width: 80%;
+}
+
+span.phone-prefix {
+    width: 18%;
+}
+
+.select__control.css-13cymwt-control {
+    height: 58px;
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+}
+
+div#react-select-3-placeholder,
+.css-qbdosj-Input:after,
+.select__input,
+div#react-select-3-placeholder::placeholder {
+    font-size: 23px !important;
+    font-size-adjust: none !important;
+    font: unset !important;
+}
+
+.css-t3ipsp-control {
+    height: 58px;
+}

@@ -1,0 +1,53 @@
+table {
+    width: 100%;
+    font-size: 23px;
+    color: #171735;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+thead {
+    background: #F3F3F3;
+}
+
+
+th {
+    padding: 15px 10px;
+}
+
+
+tr td {
+    padding: 25px 15px;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+
+td.td-btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+td.td-btns button {
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    background-color: #00ADEF;
+}
+
+td.td-btns button:hover {
+    background-color: #171735;
+}
+
+
+.participants h2 {
+    font-size: 30px;
+}
+
+.participants {
+    padding: 40px;
+}

@@ -1,0 +1,59 @@
+.popup-event-item {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.popup-event {
+    width: 100%;
+    padding: 25px;
+}
+
+
+
+.popup-event-item textarea {
+    width: 95.5%;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #d0d0d0;
+    position: relative;
+    font-family: 'Assistant';
+    font-size: 20px;
+}
+
+
+.popup-event-item input {
+    font-size: 20px;
+}
+
+.popup-event button {
+    margin-top: 10px;
+    padding: 7px 40px 10px 40px;
+    border: none;
+    border-radius: 100px;
+    color: #ffffff;
+    background-color: #00ADEF;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: auto;
+}
+
+
+
+.popup-event button:hover {
+    background-color: #171735;
+}
+
+
+
+
+button.close-button {
+    top: -51px;
+    right: -43px;
+    border:0
+}
+
+
+button.close-button:hover {
+    background-color: transparent;
+}

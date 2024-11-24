@@ -1,0 +1,82 @@
+h1 {
+  margin: 20px 0 30px 0;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #00ADEF;
+}
+
+
+.edit-items {
+  width: 100%;
+}
+
+.popup-event-item input {
+  width: 92.5%;
+  border-radius: 8px;
+  padding: 15px 40px 15px 15px;
+  border: 1px solid #d0d0d0;
+  position: relative;
+}
+
+.edit-form textarea {
+  border: 1px solid #171735;
+  width: 96%;
+  border-radius: 15px;
+  padding: 25px;
+  font-size: 25px;
+  font-family: 'Assistant', sans-serif;
+  line-height: 1.5;
+}
+
+.edit-form h3 {
+  font-size: 30px;
+  margin: 70px 0 10px 0;
+  color: #171735
+}
+
+
+.edit-form button {
+  margin-top: 10px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 100px;
+  color: #ffffff;
+  background-color: #00ADEF;
+  cursor: pointer;
+  font-size: 30px;
+  margin-right: auto;
+}
+
+.center {
+  display: flex;
+  margin: 40px 0;
+}
+
+.css-wsp0cs-MultiValueGeneric {
+  color: #171735 !important;
+  font-size: 20px !important;
+  padding: 4px 18px !important;
+}
+
+.css-1p3m7a8-multiValue {
+  border-radius: 100px !important;
+}
+
+
+.select__menu,
+.css-13cymwt-control {
+  font-size: 23px !important;
+}
+
+.select__control.css-13cymwt-control {
+  height: 58px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0;
+}
+
+div#react-select-3-placeholder {
+  font-size: 23px !important;
+}
+
+.css-t3ipsp-control {
+  height: 58px;
+}

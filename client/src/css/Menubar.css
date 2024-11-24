@@ -1,0 +1,27 @@
+.menu-bar {
+  height: 70px;
+  padding-right: 200px;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.menu-bar ul {
+  width: 100%;
+  display: flex;
+  gap: 8%;
+}
+
+.menu-bar li,
+.menu-bar li a {
+  list-style: none;
+  text-decoration: none;
+  color: #171735;
+  font-size: 24px;
+  ;
+}
+
+.menu-bar li:hover,
+.menu-bar li a:hover,
+.menu-bar li:active,
+.menu-bar li a:active {
+  color: #00ADEF;
+}

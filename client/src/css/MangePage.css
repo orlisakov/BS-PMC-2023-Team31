@@ -1,0 +1,151 @@
+.content {
+    min-height: 80vh;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.page h1 {
+    color: #171735;
+    text-align: center;
+    font-size: 56px;
+    border-bottom: 4px solid #00ADEF;
+    padding: 25px 15px;
+}
+
+.content-area h2 {
+    color: #171735;
+    text-align: right;
+    font-size: 40px;
+    border-bottom: 0;
+    padding: 15px;
+    margin-top: -20px;
+}
+
+.title-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.title-box button {
+    height: 58px;
+    padding: 10px 25px;
+    font-size: 25px;
+    border: 1px solid #dfdfdf;
+    border-radius: 8px;
+    color: #171735;
+}
+
+.title-box button:hover {
+    background-color: #171735;
+    color: #fff;
+}
+
+.page .boxed {
+    min-height: 80vh;
+    align-items: stretch;
+    margin-top: 40px;
+}
+
+.sidebar {
+    width: 30%;
+    border-left: 1px solid #dfdfdf;
+    padding-left: 30px;
+}
+
+.content-area {
+    width: 100%;
+    padding-right: 30px;
+}
+
+.side-menu ul {
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dfdfdf;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.side-menu li a {
+
+    padding: 15px;
+    font-size: 20px;
+    color: #171735;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-menu li {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.side-menu li:last-child {
+    border-bottom: 0px;
+}
+
+
+.side-menu li a:after {
+    content: "›";
+    font-size: 18px;
+    margin-right: 7px;
+}
+
+.side-menu li a:hover {
+    background-color: #171735;
+    color: #fff;
+}
+
+/*****Form****/
+.page input {
+    width: 95.7%;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.page label {
+    color: #171735;
+    position: static;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.page input[type="file"] {
+    border: 0px !important;
+    padding: 10px 0;
+}
+
+.page label.email-label:before,
+.page label.password-label:before,
+.page label.company-name:before,
+.page label.first-name:before,
+.page label.last-name:before,
+.page label.phone-label:before,
+.page label.date-label:before {
+    content: "";
+    display: none;
+}
+
+.sub-btn.active a {
+    background-color: #ccc;
+}
+
+.btn.active a {
+    background-color: #171735;
+    color: #fff;
+}
+
+ul.sub-menu-btn {
+    border-width: 1px 0 0 0;
+    background: #f3f3f3;
+    border-radius: 0;
+}
+
+.side-menu li a.btn-open:after {
+    transform: rotate(270deg);
+}

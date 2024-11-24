@@ -1,0 +1,34 @@
+{
+  "name": "giveshand---website-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon server",
+    "update-data": "node api/updateData.js",
+    "lint": "eslint . -f junit | tee lint-results.xml",
+    "build": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "eslint-junit": "^1.0.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^8.41.0",
+    "eslint-plugin-react": "^7.32.2",
+    "mocha": "^10.2.0",
+    "sinon": "^15.1.0",
+    "sinon-chai": "^3.7.0",
+    "supertest": "^6.3.3"
+  }
+}
